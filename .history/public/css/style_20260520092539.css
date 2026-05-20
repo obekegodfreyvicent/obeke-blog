@@ -251,9 +251,6 @@ img{
     gap: 10px;
     margin-top: 40px;
 }
-.pagination:hover{
-    color: var(--black);
-}
 
 .article{
     white-space: pre-wrap;

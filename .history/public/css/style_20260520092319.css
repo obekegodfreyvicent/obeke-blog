@@ -243,16 +243,10 @@ img{
 }
 
 .pagination{
-    font-size: 1.3rem;
-    color: var(--grey);
-    display: inline-block;
-    text-decoration: none;
+    display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 40px;
-}
-.pagination:hover{
-    color: var(--black);
+    margin-top: 20px;
 }
 
 .article{
@@ -260,8 +254,11 @@ img{
 }
 
 .footer{
-    margin:4rem;
+    margin:
     text-align: center;
+    padding: 20px 0;
+    font-size: var(--font-size-base);
+    color: var(--grey);
 }
 
 

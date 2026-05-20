@@ -220,48 +220,5 @@ img{
     }   
 }
 
-.article_ul li{
-    font-size: 24px;
-    cursor: pointer;
-    transition: filter 0.1s;
-}
-
-.article-ul li:not(:last-child){
-    border-bottom: 1px solid var(--grey-light);
-}
-
-.article-ul li:hover{
-    filter: none;
-}
-
-.article-ul li{
-    filter: blur(3px);
-}
-
-.article-ul li:hover{
-    filter: none;
-}
-
-.pagination{
-    font-size: 1.3rem;
-    color: var(--grey);
-    display: inline-block;
-    text-decoration: none;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 40px;
-}
-.pagination:hover{
-    color: var(--black);
-}
-
-.article{
-    white-space: pre-wrap;
-}
-
-.footer{
-    margin:4rem;
-    text-align: center;
-}
 
 
